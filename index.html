@@ -3,152 +3,104 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FLINTOMANN | Joggers for Indian Men</title>
+    <title>FlintoMaNN | Joggers That Actually Fit</title>
     <style>
-        :root {
-            --bg: #ffffff;
-            --text: #000000;
-            --border: #000000;
-        }
-
-        * {
-            box-sizing: border-box;
+        body {
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
             margin: 0;
             padding: 0;
-        }
-
-        body {
-            background-color: var(--bg);
-            color: var(--text);
-            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
             display: flex;
-            justify-content: center;
+            flex-direction: column;
             align-items: center;
+            justify-content: center;
             min-height: 100vh;
             text-align: center;
-            padding: 20px;
+            background-color: #ffffff;
+            color: #000000;
         }
-
         .container {
+            padding: 20px;
             max-width: 600px;
-            width: 100%;
         }
-
         .logo {
-            font-size: 1.2rem;
+            border: 3px solid #000;
+            padding: 10px 30px;
+            display: inline-block;
             font-weight: 900;
             letter-spacing: 5px;
-            text-transform: uppercase;
-            margin-bottom: 60px;
-            border: 2px solid var(--border);
-            display: inline-block;
-            padding: 10px 20px;
+            font-size: 1.5rem;
+            margin-bottom: 50px;
         }
-
         h1 {
-            font-size: clamp(2.2rem, 8vw, 3.5rem);
-            font-weight: 800;
-            line-height: 1;
-            margin-bottom: 20px;
+            font-size: 2.5rem;
+            font-weight: 900;
+            margin-bottom: 15px;
             text-transform: uppercase;
+            line-height: 1.1;
         }
-
-        .subtitle {
+        p.tagline {
             font-size: 1.1rem;
-            font-weight: 500;
+            color: #333;
             margin-bottom: 40px;
-            letter-spacing: -0.5px;
-            line-height: 1.4;
         }
-
-        .coming-soon-box {
-            border-top: 1px solid var(--border);
-            border-bottom: 1px solid var(--border);
-            padding: 40px 0;
-            margin-top: 40px;
+        .divider {
+            width: 100%;
+            height: 1px;
+            background-color: #ddd;
+            margin: 40px 0;
         }
-
-        .coming-soon-box p {
-            font-size: 0.95rem;
-            margin-bottom: 25px;
-            max-width: 450px;
-            margin-left: auto;
-            margin-right: auto;
-            line-height: 1.6;
+        .availability {
+            margin: 30px 0;
         }
-
-        .input-group {
-            display: flex;
-            max-width: 400px;
-            margin: 0 auto;
-            border: 2px solid var(--border);
+        .availability h3 {
+            font-size: 0.9rem;
+            letter-spacing: 3px;
+            font-weight: 400;
+            color: #666;
         }
-
-        input {
-            flex: 1;
-            padding: 15px;
-            border: none;
-            outline: none;
-            font-size: 1rem;
-            background: transparent;
-        }
-
-        button {
-            background: var(--text);
-            color: var(--bg);
-            border: none;
-            padding: 0 25px;
-            font-weight: 800;
-            text-transform: uppercase;
-            cursor: pointer;
-            transition: 0.2s ease;
-        }
-
-        button:hover {
-            background: #333;
-        }
-
-        footer {
-            margin-top: 60px;
-            font-size: 0.7rem;
+        .marketplaces {
+            font-weight: 700;
             letter-spacing: 2px;
-            opacity: 0.6;
+            font-size: 1rem;
+            margin-top: 15px;
         }
-
-        @media (max-width: 480px) {
-            .input-group {
-                flex-direction: column;
-                border: none;
-                gap: 10px;
-            }
-            input, button {
-                width: 100%;
-                border: 2px solid var(--border);
-                height: 55px;
-            }
+        footer {
+            margin-top: auto;
+            padding: 40px 20px;
+            font-size: 0.75rem;
+            color: #888;
+            line-height: 1.6;
         }
     </style>
 </head>
 <body>
 
-<div class="container">
-    <div class="logo">FLINTOMANN</div>
-    
-    <h1>Joggers That Actually Fit You</h1>
-    
-    <p class="subtitle">Finally, pants designed for the heights of Indian men. <br>Knit & cargo joggers with inseams that work.</p>
+    <div class="container">
+        <div class="logo">FLINTOMANN</div>
 
-    <div class="coming-soon-box">
-        <p>Flintomann is coming soon. Because comfort shouldn’t be a compromise. Sign up to be the first to shop joggers that actually fit.</p>
+        <h1>JOGGERS THAT<br>ACTUALLY FIT YOU</h1>
         
-        <form class="input-group">
-            <input type="email" placeholder="EMAIL ADDRESS" required>
-            <button type="submit">JOIN</button>
-        </form>
+        <p class="tagline">Finally, pants designed for the heights of Indian men.<br>
+        Knit & cargo joggers with inseams that work.</p>
+
+        <div class="divider"></div>
+
+        <div class="availability">
+            <h3>COMING SOON TO</h3>
+            <div class="marketplaces">
+                AMAZON &nbsp;•&nbsp; FLIPKART &nbsp;•&nbsp; MYNTRA
+            </div>
+        </div>
+
+        <p style="font-size: 0.9rem; margin-top: 20px;">Est. 2026 — Tailored for Height</p>
     </div>
 
-    <footer>EST. 2024 — TAILORED FOR HEIGHT</footer>
-</div>
+    <footer>
+        <p><strong>FlintoMaNN LLP</strong><br>
+        3/8, Ghanshyam pole, Near ramji temple, Anand, Gujarat 388520<br>
+        Contact: hello@flintomann.com</p>
+        <p>&copy; 2026 FlintoMaNN. All Rights Reserved.</p>
+    </footer>
 
 </body>
 </html>
