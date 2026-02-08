@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLINTOMANN | Joggers for Indian Men</title>
+    <style>
+        :root {
+            --bg: #ffffff;
+            --text: #000000;
+            --border: #000000;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: var(--bg);
+            color: var(--text);
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 600px;
+            width: 100%;
+        }
+
+        .logo {
+            font-size: 1.2rem;
+            font-weight: 900;
+            letter-spacing: 5px;
+            text-transform: uppercase;
+            margin-bottom: 60px;
+            border: 2px solid var(--border);
+            display: inline-block;
+            padding: 10px 20px;
+        }
+
+        h1 {
+            font-size: clamp(2.2rem, 8vw, 3.5rem);
+            font-weight: 800;
+            line-height: 1;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+        }
+
+        .subtitle {
+            font-size: 1.1rem;
+            font-weight: 500;
+            margin-bottom: 40px;
+            letter-spacing: -0.5px;
+            line-height: 1.4;
+        }
+
+        .coming-soon-box {
+            border-top: 1px solid var(--border);
+            border-bottom: 1px solid var(--border);
+            padding: 40px 0;
+            margin-top: 40px;
+        }
+
+        .coming-soon-box p {
+            font-size: 0.95rem;
+            margin-bottom: 25px;
+            max-width: 450px;
+            margin-left: auto;
+            margin-right: auto;
+            line-height: 1.6;
+        }
+
+        .input-group {
+            display: flex;
+            max-width: 400px;
+            margin: 0 auto;
+            border: 2px solid var(--border);
+        }
+
+        input {
+            flex: 1;
+            padding: 15px;
+            border: none;
+            outline: none;
+            font-size: 1rem;
+            background: transparent;
+        }
+
+        button {
+            background: var(--text);
+            color: var(--bg);
+            border: none;
+            padding: 0 25px;
+            font-weight: 800;
+            text-transform: uppercase;
+            cursor: pointer;
+            transition: 0.2s ease;
+        }
+
+        button:hover {
+            background: #333;
+        }
+
+        footer {
+            margin-top: 60px;
+            font-size: 0.7rem;
+            letter-spacing: 2px;
+            opacity: 0.6;
+        }
+
+        @media (max-width: 480px) {
+            .input-group {
+                flex-direction: column;
+                border: none;
+                gap: 10px;
+            }
+            input, button {
+                width: 100%;
+                border: 2px solid var(--border);
+                height: 55px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="logo">FLINTOMANN</div>
+    
+    <h1>Joggers That Actually Fit You</h1>
+    
+    <p class="subtitle">Finally, pants designed for the heights of Indian men. <br>Knit & cargo joggers with inseams that work.</p>
+
+    <div class="coming-soon-box">
+        <p>Flintomann is coming soon. Because comfort shouldn’t be a compromise. Sign up to be the first to shop joggers that actually fit.</p>
+        
+        <form class="input-group">
+            <input type="email" placeholder="EMAIL ADDRESS" required>
+            <button type="submit">JOIN</button>
+        </form>
+    </div>
+
+    <footer>EST. 2024 — TAILORED FOR HEIGHT</footer>
+</div>
+
+</body>
+</html>
